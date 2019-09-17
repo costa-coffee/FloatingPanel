@@ -11,7 +11,7 @@ The new interface displays the related contents and utilities in parallel as a u
   # s.screenshots       = ""
 
   s.platform            = :ios, "10.0"
-  s.source              = { :git => "https://github.com/SCENEE/FloatingPanel.git", :tag => "v#{s.version}" }
+  s.source              = { :git => "https://github.com/costa-coffee/FloatingPanel.git", :branch => "feature/swift-5" }
   s.source_files        = "Framework/Sources/*.swift"
   s.swift_versions       = ["4.0", "4.2", "5.0"]
 
