@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		124431EE2330DC4100BEE7F7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542753C722C49A8F00D17955 /* Utils.swift */; };
 		542753C622C49A6E00D17955 /* FloatingPanelLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542753C522C49A6E00D17955 /* FloatingPanelLayoutTests.swift */; };
-		542753C822C49A8F00D17955 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542753C722C49A8F00D17955 /* Utils.swift */; };
 		54352E9621A51A2500CBCA08 /* FloatingPanelTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54352E9521A51A2500CBCA08 /* FloatingPanelTransitioning.swift */; };
 		54352E9821A521CA00CBCA08 /* FloatingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54352E9721A521CA00CBCA08 /* FloatingPanelView.swift */; };
 		5450EEE421646DF500135936 /* FloatingPanelBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5450EEE321646DF500135936 /* FloatingPanelBehavior.swift */; };
@@ -241,7 +241,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = scenee;
 				TargetAttributes = {
 					545DB9C02151169500CA77B8 = {
@@ -318,7 +318,6 @@
 				545DBA2B2152383100CA77B8 /* GrabberHandleView.swift in Sources */,
 				54352E9621A51A2500CBCA08 /* FloatingPanelTransitioning.swift in Sources */,
 				545DB9DE215118C800CA77B8 /* UIExtensions.swift in Sources */,
-				542753C822C49A8F00D17955 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +330,7 @@
 				549E944522CF295D0050AECF /* FloatingPanelPositionTests.swift in Sources */,
 				542753C622C49A6E00D17955 /* FloatingPanelLayoutTests.swift in Sources */,
 				54A6B6B82296A8520077F348 /* FloatingPanelSurfaceViewTests.swift in Sources */,
+				124431EE2330DC4100BEE7F7 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +417,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -474,6 +475,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -503,9 +505,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -533,7 +533,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -553,7 +552,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.scenee.FloatingModalControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatingPanelTesting.app/FloatingPanelTesting";
 			};
@@ -574,7 +572,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.scenee.FloatingModalControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatingPanelTesting.app/FloatingPanelTesting";
 			};
@@ -593,7 +590,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.scenee.FloatingPanelTesting;
 				PRODUCT_NAME = FloatingPanelTesting;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -611,7 +607,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.scenee.FloatingPanelTesting;
 				PRODUCT_NAME = FloatingPanelTesting;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -675,6 +670,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -703,9 +699,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG __FP_LOG";
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Test;
@@ -725,7 +719,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.scenee.FloatingModalControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatingPanelTesting.app/FloatingPanelTesting";
 			};
@@ -740,7 +733,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scenee.FloatingPanelTesting;
 				PRODUCT_NAME = FloatingPanelTesting;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Test;
